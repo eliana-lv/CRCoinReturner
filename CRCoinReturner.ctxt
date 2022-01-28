@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=CRCoinReturner
+comment0.text=\n\ A\ CRCoinReturner\ is\ a\ cash\ register\ that\ totals\ up\ sales,\ \n\ accepts\ Coin\ objects\ for\ payment,\ computes\ change\ due,\ and\ \n\ returns\ Coin\ objects\ for\ change.\n\ @author\n\ @version\n
+comment1.params=
+comment1.target=CRCoinReturner()
+comment1.text=\n\ \ \ \ Constructs\ a\ cash\ register\ with\ no\ money\ in\ it.\n
+comment2.params=amount
+comment2.target=void\ recordPurchase(double)
+comment2.text=\n\ \ \ \ Records\ the\ sale\ of\ an\ item.\n\ \ \ \ @param\ amount\ the\ price\ of\ the\ item\n
+comment3.params=coinCount\ coinType
+comment3.target=void\ enterPayment(int,\ Coin)
+comment3.text=\n\ Enters\ the\ payment\ received\ from\ the\ customer;\ \n\ it\ should\ be\ called\ once\ for\ each\ coin\ type.\n\ @param\ coinCount\ the\ number\ of\ coins\n\ @param\ coinType\ the\ type\ of\ the\ coins\ in\ the\ payment\n
+comment4.params=coinType
+comment4.target=int\ giveChange(Coin)
+comment4.text=\n\ \ \ \ Returns\ the\ number\ of\ coins\ of\ a\ particular\ type\ to\ return.\n\ \ \ \ @param\ coinType\ the\ type\ of\ coin\ in\ which\ change\ will\ be\ returned\n\ \ \ \ @return\ the\ change\ due\ to\ the\ customer\ in\ the\ specified\ coinType\n
+comment5.params=
+comment5.target=double\ getPayment()
+numComments=6
